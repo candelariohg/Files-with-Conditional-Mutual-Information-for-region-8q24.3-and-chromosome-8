@@ -63,4 +63,4 @@ where file.tsv is the file to trim.
 
 9) From the CMI.R program you get a file called IMC-lumB.Rcompatible, IMC-lumB.rds is a layer of it.
 
-10) With IMC-lumB.Rcompatible and the circosPlot.R program, the ciros plot are created.
+10) With IMC-lumB.Rcompatible and the circosPlot.R program, the networks and the ciros plot are created.
