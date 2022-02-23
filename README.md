@@ -3,9 +3,9 @@ This is a general outline of the procedure used to calculate the CMI between chr
 The biomart file, biomart.tsv, contains nine columns that respectively have the Ensemble identifier, the gene name, the GC percentage, the gene type, the band it belongs to, the chromosome, the gene description, the start base and the end base.
 
 1) The first thing is to select the genes of chromosome 8 with the following instruction:
-
+```
 awk '$6 == 8 {print $0}' biomart.tsv
-
+```
 To indicate that the field separator is the tabulator, use:
 
 awk 'BEGIN {FS="\t"}; $6 == 8 {print $0}' biomart.tsv
